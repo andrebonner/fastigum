@@ -1,0 +1,9 @@
+{
+    "video": false,
+    "testFiles": ["**/*.feature","**/*.spec.js"],
+    "ignoreTestFiles": [
+       
+    ],
+    "pluginsFile": "cypress/plugins/index.js",
+    "supportFile": "cypress/support/index.js"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login Action",
+    "line": 1,
+    "id": "login-action",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-action;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful Login with Valid Credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User Navigates to Login Page",
+            "result": {
+              "status": "passed",
+              "duration": 1587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enters UserName and Password",
+            "result": {
+              "status": "passed",
+              "duration": 1465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Message displayed Login Successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1356000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
